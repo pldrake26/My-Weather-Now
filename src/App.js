@@ -37,7 +37,8 @@ class App extends Component {
         <Header />
         <div style={{margin: '3em', color: '#2065e6'}}>
           <h2 style={{paddingBottom: '1em'}}>{this.state.name}, AL</h2>
-          <p><span style={{fontSize: '3em'}}>{Math.round(this.state.temp)}&deg;&nbsp;F</span> {this.state.skies} <img src={iconPrefetch} alt="Sky Icon" width="75px" height="auto"/></p>
+          <p><span style={{fontSize: '3em'}}>{Math.round(this.state.temp)}&deg;&nbsp;F</span> {this.state.skies} <img src={iconPrefetch} alt="Sky Icon" width="75px" height="auto"/><br/>{new Date().toLocaleTimeString()}</p>
+          <h3>Current Conditions:</h3>
           <p>
             Cloud Coverage: {this.state.cloudiness}&#37;<br/>
             Wind speed: {this.state.wind}&nbsp;Mph<br/>
