@@ -1,1 +1,1 @@
-# A practice React.js app.
+# Weather NOW, a practice React.js app.
