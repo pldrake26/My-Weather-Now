@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     const headerStyle = {
       backgroundColor: "lightblue",
-      padding: "1em",
+      padding: "1em 3em",
       color: "#2065e6"
     };
     return (
