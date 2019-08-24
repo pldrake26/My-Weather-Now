@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header.js';
 import CurrentConditions from './components/CurrentConditions.js';
-import SevenDay from './components/SevenDay.js';
+import FiveDay from './components/FiveDay.js';
 import Footer from './components/Footer.js';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
         <Header />
         <div>
           <CurrentConditions />
-          <SevenDay />
+          <FiveDay />
         </div>
         <Footer />
       </div>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import EachDay from './EachDay.js';
 
-class SevenDay extends Component {
+class FiveDay extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -74,4 +74,4 @@ class SevenDay extends Component {
   }
 }
 
-export default SevenDay;
+export default FiveDay;
