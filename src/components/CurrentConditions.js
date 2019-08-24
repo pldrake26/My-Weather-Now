@@ -34,7 +34,7 @@ class CurrentConditions extends Component{
       <div style={{margin: '3em', color: '#2065e6'}}>
         <h2>{this.state.name}, AL</h2>
         <p>Data fetch time: {new Date().toLocaleDateString()}&nbsp;{new Date().toLocaleTimeString()}</p>
-        <p><span style={{fontSize: '3em'}}>{Math.round(this.state.temp)}&deg;&nbsp;F&nbsp;/&nbsp;</span>{this.state.skies}<img src={iconPrefetch} alt="Sky Icon" width="75px" height="auto"/></p>
+        <p><span style={{fontSize: '5em'}}>{Math.round(this.state.temp)}&deg;&nbsp;F&nbsp;/&nbsp;</span><img src={iconPrefetch} alt="Sky Icon" width="75px" height="auto"/>{this.state.skies}</p>
         <h3>Current Conditions:</h3>
         <ul>
           <li>Cloud Coverage: {this.state.cloudiness}&#37;</li>
