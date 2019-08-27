@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header.js';
 import CurrentConditions from './components/CurrentConditions.js';
-import FiveDay from './components/FiveDay.js';
+import SevenDay from './components/SevenDay.js';
 import Footer from './components/Footer.js';
 
 class App extends Component {
@@ -10,9 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div>
+        <div className="current">
           <CurrentConditions />
-          <FiveDay />
+          <SevenDay />
         </div>
         <Footer />
       </div>

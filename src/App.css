@@ -1,0 +1,6 @@
+.App {
+  background-image: url('/icons/weather256.png');
+  background-repeat: no-repeat;
+  background-position: 110% 0%;
+  background-size: 30% 40%;
+}
