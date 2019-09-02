@@ -12,6 +12,7 @@ class TodaysCondition extends Component {
         </div>
         <div>
           <ul>
+            <li>Chance of precipitation: {this.props.precipitation * 100}&#37;</li>
             <li>Cloud Coverage: {this.props.cloudiness * 100}&#37;</li>
             <li>Wind speed: {this.props.wind}&nbsp;Mph</li>
             <li>Humidity: {this.props.humidity * 100}&#37;</li>

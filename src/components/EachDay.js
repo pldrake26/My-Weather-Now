@@ -10,6 +10,7 @@ class EachDay extends Component{
           <li><img style={{marginTop: '2%'}} src={path} alt={this.props.icon} width="75px" height="auto"/></li>
           <li><span style={{fontSize: '3em'}}>{Math.round(this.props.tempHigh)}&deg;F&nbsp;/&nbsp;</span><span style={{fontSize: '2em'}}>{Math.round(this.props.tempLow)}&deg;F</span></li>
           <li>{this.props.description}</li>
+          <li>Chance of precipitation: {this.props.precipitation * 100}&#37;</li>
         </ul>
       </div>
     );
